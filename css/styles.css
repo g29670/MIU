@@ -1,154 +1,68 @@
-/*
-Elijah Moran
-MIU 1310
-
-*/
 html {
-    font-family: helvetica, roboto, droid-sans;
-    background-color: #c8c8c8;
-    margin: 0 auto;
+    background-color: white;
 }
-
 body {
-    font-family: helvetica, roboto, droid-sans;
-    background-color: #c8c8c8;
-    width: 95%;
-    margin: 0 auto;
-    margin-bottom: 8px;
-    padding: .5px;
-    border-radius: 5px;
-    -webkit-box-shadow: 0 0 10px #000;
+    font-family: "Helvetica Neue";
+    margin: 1.5em auto;
+    padding: 1.5em;
+    background-color: #EEEEEE;
+    color: #515151;
+    max-width: 35em;
+    border: 0.75em solid #515151;
+    line-height: 1.5em;
 }
-
-#items {
-    background-color: rgba(0,0,0,.3);
-    margin: 4px;
-    padding: 1px;
-    border-color: #000;
-    border: 1px;
-    border-radius: 5px;
-    -webkit-box-shadow: inset 0 0 5px #FFF;
-}
-
-#editButton,#deleteButton {
-    font-size: 10px;
-    text-decoration: none;
-    color: #FFF;
-    background-color: #000;
-    padding-left: 7px;
-    padding-right: 7px;
-    margin-right: 10px;
-    border-style: solid;
-    border-width: 1px;
-    border-radius: 10px;
-    border-color: #000;
-    -webkit-box-shadow: inset 0 6px 1px rgba(220,220,220,.3);
-}
-
-#src {
-    padding-top: 100px;
-}
-
-nav {
-    text-align: center;
-}
-
-input[type=button] {
-    font-family: helvetica, roboto, droid-sans;
-    background-color: #000;
-    color: #FFF;
-}
-
-h1 {
-    font-family: Helvetica, Roboto, Droid-Sans;
-    font-variant: small-caps;
-    font-weight: strong;
-    font-size: 170%;
-    text-align: center;
-    color: #FFF;
-    background-color: rgba(0,0,0,.3);
-    margin: 2px;
-    margin-top: 8px;
-    padding: 2px;
-    border: 1px;
-    border-color: #000;
-    border-radius: 5px;
-    -webkit-box-shadow: inset 0 0 5px #FFF;
-}
-
-h2 {
-    font-family: helvetica, roboto, droid-sans;
-    font-size: 55%;
-    font-weight: strong;
-    color: #FFF;
-}
-
 p {
-    font-family: helvetica, roboto, droid-sans;
-    color: #3c3c3c;
-    text-indent: 10px;
-    text-align: right;
-    font-size: 80%;
-    text-transform: lowercase;
-    margin-right: 12px;
-    margin-top: -10px;
+    font-family: "Helvetica Neue";
+    font-size-adjust : 100
+    margin: 1.5em 0;
 }
-
-fieldset {
-    font-family: helvetica, roboto, droid-sans;
+h1 {
+    text-shadow: 0.1em 0.1em 0.2em #4F4F51;
+    background-color: #C2CBCE;
+    color: #515151;
+    font-size: 200%;
+    padding: 0.75em;
+    margin: -0.75em -0.75em 0.75em -0.75em;
+    text-align: center
+}
+h2 {
+    background-color: #4D4B39;
+    color: #88a75d;
     font-size: 150%;
-    font-weight: strong;
-    color: #FFF;
-    background-color: rgba(#41a0bb);
-    margin: 4px;
-    padding: 1px;
-    border-color: #000;
-    border: 1px;
-    border-radius: 5px;
-    -webkit-box-shadow: inset 0 0 5px #FFF;
+    padding: 1em;
+    margin: -1em -1em 1em -1em;
+}
+h1 + h2 {
+    margin-top: -2em;
+    padding-top: 0;
 }
 
-legend {
-    font-family: Helvetica, Roboto, Droid-Sans;
-    font-weight: strong;
-}
+.imgcenter {
+   display:block; 
+   margin:0 auto; 
+   text-align:center; 
+} 
 
-span {
-    color: red;
-}
+.displayLink {
+   display:block; 
+   margin:0 auto; 
+   float:right; 
+} 
 
-span.required {
-    color: #FFF;
-    text-shadow: 0 0 5px red;
-}
+.submitButton {
+   display:block; 
+   margin:0 auto; 
+   text-align:center; 
+} 
 
-#errors li {
-    color: #FFF;
-    text-shadow: 0 0 5px red;
-}
+.getStarted {
+   display:block; 
+   margin:0 auto; 
+   text-align:center; 
+} 
 
-li {
-    font-family: helvetica, roboto, droid-sans;
-    font-size: 50%;
-    font-weight: 400;
-    color: #FFF;
-    list-style-type: none;
-    list-style-position: inside;
-}
-
-div.button {
-    text-align: center;
-}
-
-input[type=submit] {
-    font-family: helvetica, roboto, droid-sans;
-    background-color: #000;
-    color: #FFF;
-}
-
-footer {
-    font-family: Helvetica, Roboto, Droid-Sans;
-    font-variant: small-caps;
-    text-align: center;
-    color: #585858;
-}
+.search {
+   display:block; 
+   margin:0 auto; 
+   text-align:center; 
+} 

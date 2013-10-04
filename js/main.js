@@ -27,7 +27,7 @@ window.addEventListener("DOMContentLoaded", function() {
         }
         selectList.appendChild(makeSelect);
     };
-    // //
+    //Check if movie is a favorite //
 
     function getCheckboxValue() {
         if ($('favorite').checked) {
@@ -147,7 +147,7 @@ window.addEventListener("DOMContentLoaded", function() {
 
     function autoFillData() {
         for (var n in json) {
-            var id = Math.floor(Math.random() * 10001);
+            var id = Math.floor(Math.random() * 100000001);
             localStorage.setItem(id, JSON.stringify(json[n]));
         }
     };

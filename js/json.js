@@ -1,38 +1,38 @@
 var json = {
-    "movie1": {
-        "entermovie": ["Movie Style: ", "DVD"],
-        "mname": ["Movie Name: ", "Blade Runner"],
-        "mgenre": ["Movie Genre: ", "Action"],
-        "myear": ["Year movie was made: ", "01-01-1988"],
-        "mage": ["Suitable viewing age: ", "18"],
-        "favorite": ["Favorite: ", "Yes"],
-        "movierating": ["This movie is rated as a: ", "7"],
-        "quality": ["The movie quality is: ", "Excellent"],
-        "comments": ["This is what I think about this movie: ", "Comment on movie"]
-    },
-    "movie2": {
-        "entermovie": ["Movie Style: ", "VHS"],
-        "mname": ["Movie Name: ", "Hoagieville"],
-        "mgenre": ["Movie Genre: ", "Horror"],
-        "myear": ["Year movie was made: ", "02-02-1997"],
-        "mage": ["Suitable viewing age: ", "18"],
-        "favorite": ["Favorite: ", "No"],
-        "movierating": ["This movie is rated as a: ", "3"],
-        "quality": ["The movie quality is: ", "Good"],
-        "comments": ["This is what I think about this movie: ", "Comment on movie"]
-    },
-    "movie3": {
-        "entermovie": ["Movie Style: ", "Blu-ray"],
-        "mname": ["Movie Name: ", "Jokealot"],
-        "mgenre": ["Movie Genre: ", "Comedy"],
-        "myear": ["Year movie was made: ", "03-03-2011"],
-        "mage": ["Suitable viewing age: ", "21"],
-        "favorite": ["Favorite: ", "No"],
-        "movierating": ["This movie is rated as a: ", "5"],
-        "quality": ["The movie quality is: ", "Good"],
-        "comments": ["This is what I think about this movie: ", "Comment on movie"]
-    },
-    "movie4": {
+	"movie1": {
+		"entermovie": ["Movie Style: ", "DVD"],
+		"mname": ["Movie Name: ", "Blade Runner"],
+		"mgenre": ["Movie Genre: ", "Action"],
+		"myear": ["Year movie was made: ", "01-01-1988"],
+		"mage": ["Suitable viewing age: ", "18"],
+		"favorite": ["Favorite: ", "Yes"],
+		"movierating": ["This movie is rated as a: ", "7"],
+		"quality": ["The movie quality is: ", "Excellent"],
+		"comments": ["This is what I think about this movie: ", "Comment on movie"]
+	},
+	"movie2": {
+		"entermovie": ["Movie Style: ", "VHS"],
+		"mname": ["Movie Name: ", "Hoagieville"],
+		"mgenre": ["Movie Genre: ", "Horror"],
+		"myear": ["Year movie was made: ", "02-02-1997"],
+		"mage": ["Suitable viewing age: ", "18"],
+		"favorite": ["Favorite: ", "No"],
+		"movierating": ["This movie is rated as a: ", "3"],
+		"quality": ["The movie quality is: ", "Good"],
+		"comments": ["This is what I think about this movie: ", "Comment on movie"]
+	},
+	"movie3": {
+	"entermovie": ["Movie Style: ", "Blu-ray"],
+		"mname": ["Movie Name: ", "Jokealot"],
+		"mgenre": ["Movie Genre: ", "Comedy"],
+		"myear": ["Year movie was made: ", "03-03-2011"],
+		"mage": ["Suitable viewing age: ", "21"],
+		"favorite": ["Favorite: ", "No"],
+		"movierating": ["This movie is rated as a: ", "5"],
+		"quality": ["The movie quality is: ", "Good"],
+		"comments": ["This is what I think about this movie: ", "Comment on movie"]
+	},
+	"movie4": {
         "entermovie": ["Movie Style: ", "Blu-ray"],
         "mname": ["Movie Name: ", "Assassin's Creed Linage"],
         "mgenre": ["Movie Genre: ", "Action"],
@@ -219,4 +219,4 @@ var json = {
         "quality": ["The movie quality is: ", "Good"],
         "comments": ["This is what I think about this movie: ", "Comment on movie"]
     }
-},
+};
